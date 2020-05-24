@@ -22,10 +22,10 @@ export const Card: React.FunctionComponent<CardProps> = ({pokemon}, props) => {
                 <div className={'Card__stats'}>
                     <p><b>ID: </b>{pokemon.id}</p>
                     <p><b>Name: </b>{pokemon.name}</p>
-                    <p><b>Types: </b>{pokemon.types.map((type:any) => {
+                    <p className={'Card__stats__types'}><b>Types: </b>{pokemon.types.map((type:any) => {
                         return <p className={type.type.name}>{type.type.name}</p>
                     })}</p>
-                    <p><b>Weight: </b>{pokemon.weight}</p>
+                    <p><b>Weight: </b>{pokemon.weight} lbs</p>
                 </div>
             </div>
         </>
