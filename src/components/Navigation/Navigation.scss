@@ -1,0 +1,23 @@
+.nav-buttons {
+    display: block;
+    padding: 20px;
+    text-align: center;
+
+    button {
+        padding: 10px 20px;
+        margin-right: 20px;
+        background: #000000;
+        color: #ffffff;
+        border: 5px solid transparent;
+        border-radius: 5px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+.Header button {
+    background: #ffffff;
+    color: black;
+}
