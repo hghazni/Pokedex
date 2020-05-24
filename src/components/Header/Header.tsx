@@ -7,7 +7,6 @@ export const Header: React.FunctionComponent<NavigationProps> = (props) => {
         <div className={'Header'}>
             <div className={'Header__content'}>
                 <div className={'Header__content-logo'}>
-                    <img src="../../../assets/poke-ball.png" alt="lol"/>
                 </div>
                 <div className={'Header__content-text'}>
                     <h1>Pokedex</h1>
