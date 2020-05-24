@@ -9,7 +9,9 @@ export const Header: React.FunctionComponent<NavigationProps> = (props) => {
                 <div className={'Header__content-logo'}>
                 </div>
                 <div className={'Header__content-text'}>
-                    <h1>Pokedex</h1>
+                    <a href="./">
+                        <h1>Pokedex</h1>
+                    </a>
                     <p>By Harry Ghazni</p>
                 </div>
             </div>
